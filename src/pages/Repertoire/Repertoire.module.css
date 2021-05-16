@@ -1,0 +1,32 @@
+.repertoire {
+  margin: 5% auto;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header {
+  flex: 0 0 calc(50% - 1em);
+  text-align: left;
+}
+
+.cartMenu {
+  margin: 2% 0;
+  flex: 0 0 calc(50% - 1em);
+  text-align: left;
+}
+
+.cartMenu button:first-child {
+  margin-right: 5%;
+}
+
+hr {
+  margin-top: 10%;
+}
+
+.cartSelection {
+  flex: 0 0 calc(100% - 1em);
+  margin: 2%;
+  display: flex;
+}

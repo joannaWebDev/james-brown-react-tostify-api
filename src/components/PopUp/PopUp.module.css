@@ -1,0 +1,10 @@
+.popUpText {
+  font-style: italic;
+  width: 80%;
+  font-size: 1em;
+}
+
+.popUp:hover {
+  cursor: pointer;
+  text-transform: uppercase;
+}

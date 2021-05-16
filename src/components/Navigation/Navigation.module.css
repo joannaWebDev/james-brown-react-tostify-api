@@ -1,0 +1,15 @@
+.navigationMenu {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  font-size: 1em;
+  color: #6c6c6c;
+}
+
+.navigationMenu li:not(:last-child) {
+  margin-right: 5%;
+}
+
+.navigationMenu a:hover {
+  color: #5f9ea0;
+}

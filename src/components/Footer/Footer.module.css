@@ -1,0 +1,31 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 8% auto;
+  color: #6c6c6c;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+  font-size: 0.8em;
+}
+
+.footerLinks a:hover {
+  color: #5f9ea0;
+}
+
+.footerLinks li:not(:last-child) {
+  margin-right: 5%;
+}
+
+.footerLinks li:not(:last-child)::after {
+  content: "\02022";
+  padding-left: 20%;
+}
+
+.footerContainer p {
+  font-size: 0.7em;
+}

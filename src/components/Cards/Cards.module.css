@@ -1,0 +1,97 @@
+.cards {
+  margin: 20% auto;
+  background: #fff;
+}
+
+.cards h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.cardsWrapper {
+  margin: 5% auto;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.cardsItems {
+  margin-bottom: 24px;
+}
+
+.cardsItem {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
+
+.cardsItemLink {
+  display: flex;
+  flex-flow: column;
+}
+
+.cardsItemPicWrap {
+  position: relative;
+}
+
+.cardsItemPicWrap::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 0;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 0.5em;
+  font-weight: 700;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.cardsItemImg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all 0.2s linear;
+}
+
+.cardsItemImg:hover {
+  transform: scale(1.1);
+}
+
+.cardsItemInfo {
+  padding: 5%;
+}
+
+.cardsItemText {
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.hiddenText {
+  text-align: left;
+  margin-right: 1%;
+  color: #6c6c6c;
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .cardsItem {
+    margin-bottom: 2rem;
+  }
+
+  .cardsItems {
+    display: flex;
+  }
+}
+
+/*between this breakpoints fixed the last image gap by adding some meaningful content*/
+@media only screen and (min-width:621px) and (max-width:938px) {
+  .hiddenText {
+    display: block;
+  }
+}

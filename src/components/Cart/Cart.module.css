@@ -1,0 +1,29 @@
+.cart {
+  margin: 0 auto;
+}
+
+.productsInCart {
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto;
+  flex-wrap: wrap;
+}
+
+.productsDetails img {
+  width: 100%;
+  height: auto;
+}
+
+.productsDetails div:first-child {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.productsDetails * {
+  margin-right: 5%;
+}
+
+.productsInput {
+  width: 5%;
+}

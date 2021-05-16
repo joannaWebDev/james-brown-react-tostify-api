@@ -1,0 +1,19 @@
+.imageSearchContainer {
+  margin: 10% auto;
+}
+
+.imageSearchContainer button:hover {
+  text-transform: none;
+}
+
+.imageSearch {
+  padding: 2%;
+}
+
+input.searchInput {
+  border-width: 0px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #5f9ea0;
+  padding: 3%;
+}
