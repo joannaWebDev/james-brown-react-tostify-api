@@ -1,0 +1,10 @@
+.backToTop {
+    float: right;
+    transform: rotate(-90deg);
+    font-weight: 700px;
+    font-size: 1.5rem;
+    color: #6c6c6c;
+}
+.backToTop:hover {
+  color: #bc8f8f;
+}

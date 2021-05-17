@@ -4,7 +4,7 @@ import styles from './Products.module.css';
 
 const WORKSHOP = 'workshop';
 
-export default function Products({ setCart, cart }) {
+const Products =  () => {
   const [products] = useState([
     {
       category: WORKSHOP,
@@ -48,21 +48,6 @@ export default function Products({ setCart, cart }) {
     },
   ]);
 
-  const addToCart = (product) => {
-    console.log('We are in addToCart');
-    let newCart = [...cart];
-    let itemInCart = newCart.find((item) => product.name === item.name);
-    if (itemInCart) {
-      itemInCart.quantity++;
-    } else {
-      itemInCart = {
-        ...product,
-        quantity: 1,
-      };
-      newCart.push(itemInCart);
-    }
-    setCart(newCart);
-  };
 
   // eslint-disable-next-line no-unused-vars
   const [category, setCategory] = useState(WORKSHOP);
@@ -78,10 +63,6 @@ export default function Products({ setCart, cart }) {
         {getProductsInCategory().map((product, idx) => (
           <div className={styles.product} key={idx}>
             <img src={product.image} alt={product.name} />
-         {/*    <button className={styles.products} onClick={() => addToCart(product)}>
-              {' '}
-              Add to Cart
-            </button> */}
             <h3>{product.name}</h3>
             <p className={styles.productsCost}>${product.cost}</p>
             <p>{product.about}</p>
@@ -92,5 +73,5 @@ export default function Products({ setCart, cart }) {
     </div>
   );
 }
-//useState will be an array of different products
-//map over all the products, that takes a callback function which returns jsx
+
+export default Products;

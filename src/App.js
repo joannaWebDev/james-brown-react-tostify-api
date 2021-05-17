@@ -7,6 +7,7 @@ import Home from './pages/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Repertoire from './pages/Repertoire/Repertoire';
 import Footer from './components/Footer/Footer';
+import BackToTop from './components/BackToTop/BackToTop';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/" exact component={Home} />
         <Route path="/portfolio" exact component={Portfolio} />
         <Route path="/repertoire" exact component={Repertoire} />
+        <BackToTop/>
         <Footer />
       </div>
     </Router>

@@ -4,7 +4,7 @@
 
 .products {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: 2%;
   flex-wrap: wrap;
 }
@@ -21,21 +21,6 @@
 .product img {
   width: 100%;
   height: auto;
-}
-
-.products button {
-  width: 30%;
-  margin: 0;
-  background-color: #222;
-  color: #fff;
-  padding: 1%;
-  border: none;
-  outline: none;
-}
-
-.products button:hover {
-  text-transform: uppercase;
-  cursor: pointer;
 }
 
 .products h3 {

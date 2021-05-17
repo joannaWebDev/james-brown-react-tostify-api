@@ -11,7 +11,7 @@ const Navigation = () => {
         <HashLink
           to="/#about"
           scroll={(el) =>
-            el.scrollIntoView({ behavior: 'smooth', block: 'end' })
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' })
           }
         >
           About
@@ -27,7 +27,7 @@ const Navigation = () => {
         <HashLink
           to="/#contact"
           scroll={(el) =>
-            el.scrollIntoView({ behavior: 'smooth', block: 'end' })
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' })
           }
         >
           Contact

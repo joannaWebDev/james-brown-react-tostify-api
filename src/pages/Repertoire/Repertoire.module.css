@@ -1,32 +1,12 @@
 .repertoire {
-  margin: 5% auto;
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: 5% auto; 
 }
 
-.header {
-  flex: 0 0 calc(50% - 1em);
-  text-align: left;
+.displayOrder{
+  flex-direction: row-reverse;
 }
 
-.cartMenu {
-  margin: 2% 0;
-  flex: 0 0 calc(50% - 1em);
-  text-align: left;
-}
+@media only screen and (max-width: 600px) {.displayOrder {
+  flex-direction: column;
+}}
 
-.cartMenu button:first-child {
-  margin-right: 5%;
-}
-
-hr {
-  margin-top: 10%;
-}
-
-.cartSelection {
-  flex: 0 0 calc(100% - 1em);
-  margin: 2%;
-  display: flex;
-}

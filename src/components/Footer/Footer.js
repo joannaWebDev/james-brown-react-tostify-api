@@ -11,21 +11,22 @@ const Footer = () => {
           <NavLink to="/portfolio">Portfolio</NavLink>
         </li>
         <li>
-          <NavLink to="/repertoire">Repertoire</NavLink>
+          <NavLink to="/repertoire">
+            Repertoire</NavLink>
         </li>
         <li>
           <a
             href="https://joannasmerea.com/"
             className="fa fa-instagram"
             target="_blank"
-            rel="noreferrer"
-            title="Portfolio"
+            rel="noopener noreferrer"
+            title="dev's Portfolio"
           >
             Instagram
           </a>
         </li>
       </ul>
-      <p>&copy;2020 James Brown</p>
+      <p>&copy; James Brown</p>
     </div>
   );
 };

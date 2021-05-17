@@ -1,0 +1,9 @@
+.shared_section_container{
+  width: 60vw;
+}
+.shared_section_container * {
+  padding: 1% 0;
+}
+.shared_section_container p:first-of-type{
+  text-transform: uppercase;
+}

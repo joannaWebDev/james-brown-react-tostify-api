@@ -16,14 +16,17 @@
 }
 
 img.imageCard {
-/*  max-height: 100%;
-  min-width: 100%; */
   border-radius: 2%;
-  /* filter: grayscale(100%) contrast(120%); */
+  filter: grayscale(100%) contrast(120%); 
   box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
 }
+img.imageCard:hover {
+  cursor:cell;
+  filter: none;
+  -webkit-filter: grayscale(0%);
 
-@-webkit-keyframes flash {
+}
+/* @-webkit-keyframes flash {
   0%, 50%, 100% { opacity: 1; }
   25%, 75% { opacity: 0; }
 }
@@ -33,11 +36,11 @@ img.imageCard {
 }
 
 img.imageCard:hover {
-  cursor:cell;
+  
   opacity: 1;
   -webkit-animation: flash 1s;
   animation: flash 1s;
-}
+} */
 .imageTextContainer * {
   padding-bottom: 2%;
 }
