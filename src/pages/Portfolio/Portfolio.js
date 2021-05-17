@@ -17,7 +17,7 @@ const Portfolio = () => {
 
   useEffect(() => {
     fetch(
-      `https://pixabay.com/api/?key=${process.env.REACT_APP_PIXABAY_API_KEY}&q=${term}&image_type=photo&safesearch=true&per_page=36`
+      `https://pixabay.com/api/?key=19199393-6d3b6b7d7d8e747d40c7d3776&q=${term}&image_type=photo&safesearch=true&per_page=36`
     )
       .then((res) => res.json())
       .then((data) => {
