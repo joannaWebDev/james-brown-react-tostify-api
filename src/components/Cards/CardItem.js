@@ -1,20 +1,37 @@
 import React from 'react';
+import { useFetch } from '../hooks';
 import { Link } from 'react-router-dom';
 
 import styles from './Cards.module.css';
 
-const CardItem = (props) => {
+const CardItem = () => {
+  const [data, isLoading] = useFetch(`${process.env.PUBLIC_URL}/data.json`);
   return (
-    <div className={styles.cardsItem}>
-      <Link className={styles.cardsItemLink} to={props.path}>
-        <figure className={styles.cardsItemPicWrap} data-category={props.label}>
-          <img className={styles.cardsItemImg} alt="featured" src={props.src} />
-        </figure>
-        <div className={styles.cardsItemInfo}>
-          <h5 className={styles.cardsItemText}>{props.text}</h5>
-        </div>
-      </Link>
-    </div>
+    <>
+      {isLoading ? (
+        <h1>Loading...</h1>
+      ) : (
+        <ul className={styles.cardsWrapper}>
+          {data.map(({ id, src, label, description }) => (
+            <li key={`photo-${id}`} className={styles.cardsItem}>
+              <Link to="/portfolio" className={styles.cardsItemLink}>
+                <figure className={styles.cardsItemPicWrap} data-category={label.split(' ')[0]}>
+                  <img
+                    alt={description}
+                    src={`${process.env.PUBLIC_URL}/${src}`}
+                    className={styles.cardsItemImg}
+                    width="300"
+                  />
+                </figure>
+                <div className={styles.cardsItemInfo}>
+                  <h5 className={styles.cardsItemText}>{description} </h5>
+                </div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </>
   );
 };
 

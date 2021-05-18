@@ -1,0 +1,57 @@
+{"hits":[
+    {
+      "id":"1",
+      "src":"img/male-paint-brush.jpg",
+      "label":"Adventure",
+      "description":"Explore the hidden waterfall deep inside the Amazon Jungle"
+    },
+    {
+      "id":"2",
+      "src":"img/pin-up.jpg",
+      "label":"Luxury",
+      "description":"Travel through the Islands of Bali in a Private Cruise"
+    },
+    {
+      "id":"3",
+      "src":"img/wedding-limusine.jpg",
+      "label":"Luxury",
+      "description":"Experience Football on Top of the Himilayan Mountains"
+    },
+    {
+      "id":"4",
+      "src":"img/lonely-man.jpg",
+      "label":"Adrenaline",
+      "description":"Ride through the Sahara Desert on a guided camel tour"
+    },
+    {
+      "id":"5",
+      "src":"img/ballerina.jpg",
+      "label":"Adrenaline",
+      "description":"Ride through the Sahara Desert on a guided camel tour"
+    },
+    {
+      "id":"6",
+      "src":"img/girl-teddy-bear.jpg",
+      "label":"Adrenaline",
+      "description":"Ride through the Sahara Desert on a guided camel tour"
+    },
+    {
+      "id":"7",
+      "src":"img/couple.jpg",
+      "label":"Couple",
+      "description":"Ride through the Sahara Desert on a guided camel tour"
+    },
+    {
+      "id":"8",
+      "src":"img/gangster-look.jpg",
+      "label":"Adrenaline",
+      "description":"Ride through the Sahara Desert on a guided camel tour"
+    },
+    {
+      "id":"9",
+      "src":"img/portrait-man.jpg",
+      "label":"Posing",
+      "description":"Ride through the Sahara Desert on a guided camel tour"
+    }
+  ]
+}

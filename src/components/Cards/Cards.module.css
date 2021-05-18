@@ -72,13 +72,6 @@
   line-height: 24px;
 }
 
-.hiddenText {
-  text-align: left;
-  margin-right: 1%;
-  color: #6c6c6c;
-  display: none;
-}
-
 @media only screen and (max-width: 1024px) {
   .cardsItem {
     margin-bottom: 2rem;
@@ -86,12 +79,5 @@
 
   .cardsItems {
     display: flex;
-  }
-}
-
-/*between this breakpoints fixed the last image gap by adding some meaningful content*/
-@media only screen and (min-width:621px) and (max-width:938px) {
-  .hiddenText {
-    display: block;
   }
 }
