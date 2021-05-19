@@ -29,23 +29,25 @@ and put your key there : REACT_APP_PIXABAY_API_KEY=xxxxxxxxxxxxxxx
 
 
 # James Brown freelance photographer project done with React
-* │   └───src
-* │       ├───components
-* │       │   ├───About
-* │       │   ├───Button
-* │       │   ├───Cards
-* │       │   ├───Contact
-* │       │   ├───Footer
-* │       │   ├───Header
-* │       │   ├───Hero
-* │       │   ├───ImageCard
-* │       │   ├───ImageSearch
-* │       │   ├───Logo
-* │       │   ├───Navigation
-* │       │   ├───PopUp
-* │       │   └───UserLogin
-* │       └───pages
-* │           ├───Home
-* │           └───Portfolio
-* ├───docs
- *└───server
+└───src
+    ├───components
+    │   ├───About
+    │   ├───BackToTop
+    │   ├───Button
+    │   ├───Cards
+    │   ├───Contact
+    │   ├───Footer
+    │   ├───Header
+    │   ├───Hero
+    │   ├───ImageCard
+    │   ├───ImageSearch
+    │   ├───Logo
+    │   ├───Navigation
+    │   ├───PopUp
+    │   ├───Products
+    │   └───Section
+    └───pages
+        ├───Home
+        ├───Portfolio
+        └───Repertoire
+

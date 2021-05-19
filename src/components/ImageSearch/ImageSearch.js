@@ -25,7 +25,6 @@ const ImageSearch = ({ searchText }) => {
             placeholder="Search Image Term..."
           />
           <Button
-            className={styles.btns}
             buttonStyle="btn--primary"
             buttonSize="btn--small"
             type="submit"
