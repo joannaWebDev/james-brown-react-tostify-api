@@ -6,6 +6,7 @@ import styles from './Cards.module.css';
 
 const CardItem = () => {
   const [data, isLoading] = useFetch(`${process.env.PUBLIC_URL}/data.json`);
+  
   return (
     <>
       {isLoading ? (

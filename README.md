@@ -1,4 +1,18 @@
-# Frontend
+## About this project
+- Fetch photos and some data from the Pixabay API.
+   -- turning it into a component
+   -- looping through all the images
+   -- out-put them into cards  
+   
+- Search component whre you can put a search element. 
+If it doesn't exist, it will display: *"No Images found"*
+
+
+## Languages
+React | Tostify | Pixabay 
+
+
+# Clone
 
 If you wish to run the project locally you will need to setup the enviroment first.
 
@@ -27,8 +41,7 @@ and put your key there : REACT_APP_PIXABAY_API_KEY=xxxxxxxxxxxxxxx
 
 5. Live version on [https://james-brown-react.netlify.app/]
 
-
-# James Brown freelance photographer project done with React
+# Project tree 
 └───src
     ├───components
     │   ├───About
@@ -50,4 +63,6 @@ and put your key there : REACT_APP_PIXABAY_API_KEY=xxxxxxxxxxxxxxx
         ├───Home
         ├───Portfolio
         └───Repertoire
+
+
 
