@@ -39,7 +39,7 @@ and put your key there : REACT_APP_PIXABAY_API_KEY=xxxxxxxxxxxxxxx
 
 4.Ready, go !
 
-5. Live version on [https://james-brown-react.netlify.app/]
+5. Live version on [Netlify](https://james-brown-react.netlify.app/)
 
 # Project tree 
 └───src  
